@@ -20,6 +20,7 @@ import { createSpinner } from "nanospinner";
 
 let playerName;
 
+// a very useful function to set the code to sleep
 const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
 async function welcome() {
